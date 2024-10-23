@@ -19,14 +19,9 @@ public class HelloApplication extends Application  { //inheriting core functiona
         launch(args); //method from Application class, must be called to setup javafx application
     }
 
-
-    @Override
     public void start(Stage primaryStage) {
         primaryStage.setTitle("Hello GUI: Paul Chepura");
-
-
         StackPane layout = new StackPane();
-
         Scene scene = new Scene(layout, 400, 400);
         primaryStage.setScene(scene);
         primaryStage.show();
